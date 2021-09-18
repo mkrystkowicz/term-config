@@ -1,0 +1,88 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.fontWeight": "500",
+  "editor.fontFamily": "Monaco",
+  "terminal.integrated.fontWeight": "100",
+  "terminal.integrated.fontSize": 11,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAtributes": false
+    }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "gruvboxMaterial.diagnosticTextBackgroundOpacity": "50%",
+  "gruvboxMaterial.lightWorkbench": "flat",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.parameterHints.enabled": false,
+  "explorer.compactFolders": false,
+  "eslint.format.enable": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.eslintIntegration": true,
+  "editor.lineHeight": 18,
+  "editor.suggestLineHeight": 20,
+  "editor.renderLineHighlight": "gutter",
+  "gruvboxMaterial.italicComments": false,
+  "editor.cursorWidth": 3,
+  "editor.letterSpacing": 1,
+  "workbench.fontAliasing": "antialiased",
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  "gruvboxMaterial.colorfulSyntax": true,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "~/../css/"
+    }
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.activityBar.visible": false,
+  "editor.minimap.enabled": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontLigatures": false,
+  "gruvboxMaterial.darkWorkbench": "high-contrast",
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.printWidth": 250,
+  "editor.fontSize": 11,
+  "editor.cursorStyle": "block",
+  "vim.cursorStylePerMode.insert": "line",
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "gruvboxMaterial.darkContrast": "hard",
+  "gruvboxMaterial.darkPalette": "mix",
+  "window.zoomLevel": -1
+}
+

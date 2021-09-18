@@ -1,0 +1,16 @@
+advanced-new-file
+auto rename tag
+babel javascript
+bracket pair colorizer
+eslint
+gruvbox material
+live server
+material icon theme
+prettier
+svg
+tailwind css intellisense
+vetur
+vim
+live sass compiler
+vscode-styled-components
+visual studio intellicode
