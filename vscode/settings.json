@@ -3,8 +3,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
-  "editor.fontWeight": "500",
-  "editor.fontFamily": "Monaco",
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "Monaco Nerd Font Mono",
   "terminal.integrated.fontWeight": "100",
   "terminal.integrated.fontSize": 11,
   "workbench.startupEditor": "newUntitledFile",
@@ -23,7 +23,7 @@
       "printWidth": 100,
       "singleQuote": false,
       "wrapAttributes": false,
-      "sortAtributes": false
+      "sortAttributes": false
     }
   },
   "[html]": {
@@ -41,12 +41,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.eslintIntegration": true,
-  "editor.lineHeight": 18,
+  "editor.lineHeight": 16,
   "editor.suggestLineHeight": 20,
   "editor.renderLineHighlight": "gutter",
   "gruvboxMaterial.italicComments": false,
   "editor.cursorWidth": 3,
-  "editor.letterSpacing": 1,
+  "editor.letterSpacing": 0.1,
   "workbench.fontAliasing": "antialiased",
   "diffEditor.wordWrap": "on",
   "editor.wordWrap": "on",
@@ -76,13 +76,19 @@
   "gruvboxMaterial.darkWorkbench": "high-contrast",
   "workbench.sideBar.location": "right",
   "workbench.iconTheme": "material-icon-theme",
-  "prettier.printWidth": 250,
-  "editor.fontSize": 11,
-  "editor.cursorStyle": "block",
+  "prettier.printWidth": 120,
   "vim.cursorStylePerMode.insert": "line",
-  "workbench.colorTheme": "Gruvbox Material Dark",
-  "gruvboxMaterial.darkContrast": "hard",
-  "gruvboxMaterial.darkPalette": "mix",
-  "window.zoomLevel": -1
+  "editor.tabSize": 2,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-p>": false
+  },
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Minimal Theme"
 }
-

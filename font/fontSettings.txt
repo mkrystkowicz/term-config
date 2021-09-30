@@ -1,1 +1,1 @@
-Regular 9px ls101 lh110
+Regular 10px ls100 lh109

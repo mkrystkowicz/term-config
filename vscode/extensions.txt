@@ -3,7 +3,7 @@ auto rename tag
 babel javascript
 bracket pair colorizer
 eslint
-gruvbox material
+minimal
 live server
 material icon theme
 prettier
