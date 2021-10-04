@@ -1,4 +1,4 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["html", "css", "scss", "markdown", "javascript", "typescript"],
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
   "snippets.ultisnips.usePythonx": false
 }
