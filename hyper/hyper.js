@@ -8,18 +8,18 @@ module.exports = {
     // or `'canary'` for less polished but more frequent updates
     updateChannel: "stable",
     // default font size in pixels for all tabs
-    fontSize: 10,
+    fontSize: 9,
     // font family with optional fallbacks
     fontFamily:
-      '"Monaco Nerd Font Mono", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      '"SF Mono", "Monaco Nerd Font Mono", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     // default font weight: 'normal' or 'bold'
-    fontWeight: "normal",
+    fontWeight: "600",
     // font weight for bold characters: 'normal' or 'bold'
-    fontWeightBold: "normal",
+    fontWeightBold: "600",
     // line height as a relative unit
     lineHeight: 1,
     // letter spacing as a relative unit
-    letterSpacing: 0,
+    letterSpacing: 0.6,
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: "#C4C8C6",
     // terminal text color under BLOCK cursor
@@ -27,7 +27,7 @@ module.exports = {
     // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
     cursorShape: "BLOCK",
     // set to `true` (without backticks and without quotes) for blinking cursor
-    cursorBlink: false,
+    cursorBlink: true,
     // color of the text
     foregroundColor: "#C4C8C6",
     // terminal background color

@@ -1,11 +1,13 @@
+
 {
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
-  "editor.fontWeight": "400",
-  "editor.fontFamily": "Monaco Nerd Font Mono",
-  "terminal.integrated.fontWeight": "100",
+  "editor.fontWeight": "700",
+  "editor.fontFamily": "SF Mono",
+  "editor.fontSize": 11,
+  "terminal.integrated.fontWeight": "600",
   "terminal.integrated.fontSize": 11,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDelete": false,
@@ -89,6 +91,7 @@
     "<C-f>": false,
     "<C-p>": false
   },
+  "workbench.colorTheme": "Minimal Theme",
   "window.zoomLevel": -1,
-  "workbench.colorTheme": "Minimal Theme"
+  "liveServer.settings.donotVerifyTags": true
 }

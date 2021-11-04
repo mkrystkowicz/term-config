@@ -1,1 +1,2 @@
 Regular 10px ls100 lh109
+SFMono: Semibold 9px ls100 lh101
