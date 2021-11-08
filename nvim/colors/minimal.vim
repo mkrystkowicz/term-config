@@ -85,7 +85,7 @@ exe 'hi Tag guifg='s:keyword
 exe 'hi Title guifg='s:fg'  gui=bold'
 exe 'hi Todo guifg='s:fg'  gui=inverse,bold'
 exe 'hi Type guifg='s:type
-exe 'hi Underlined   gui=underline'
+exe 'hi Underlined gui=underline'
 
 let g:terminal_color_0 = s:bg
 let g:terminal_color_1 = s:warning
@@ -147,3 +147,4 @@ exe 'hi htmlStatement guifg='s:keyword
 exe 'hi htmlSpecialTagName guifg='s:keyword
 
 exe 'hi mkdCode guifg='s:builtin
+exe 'hi SpellBad gui=NONE'
