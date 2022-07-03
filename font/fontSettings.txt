@@ -1,1 +1,1 @@
-SFMono: Bold 10px ls100 lh100
+SFMono: Regular 11px ls100 lh100

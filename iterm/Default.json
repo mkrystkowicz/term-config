@@ -1,11 +1,5 @@
 {
-  "Ansi 5 Color" : {
-    "Red Component" : 0.52156862745098043,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.5490196078431373,
-    "Alpha Component" : 1,
-    "Green Component" : 0.40392156862745099
-  },
+  "Custom Directory" : "Recycle",
   "Working Directory" : "\/Users\/krisek",
   "Prompt Before Closing 2" : false,
   "Selected Text Color" : {
@@ -21,7 +15,7 @@
     "Blue Component" : 0,
     "Red Component" : 1
   },
-  "Use Italic Font" : true,
+  "Use Italic Font" : false,
   "Foreground Color" : {
     "Red Component" : 0.7686274509803922,
     "Color Space" : "sRGB",
@@ -242,6 +236,12 @@
       "Action" : 10,
       "Text" : "[15;2~"
     },
+    "0x63-0x100000-0x8" : {
+      "Version" : 1,
+      "Action" : 10,
+      "Text" : "c",
+      "Label" : ""
+    },
     "0xf701-0x220000" : {
       "Action" : 10,
       "Text" : "[1;2B"
@@ -343,15 +343,15 @@
   "Blur Radius" : 25.15136774443409,
   "Cursor Type" : 2,
   "Ansi 0 Color" : {
-    "Red Component" : 0.062745098039215685,
+    "Red Component" : 0.062745098039215672,
     "Color Space" : "sRGB",
     "Blue Component" : 0.070588235294117646,
     "Alpha Component" : 1,
     "Green Component" : 0.066666666666666666
   },
   "Blur" : false,
-  "Vertical Spacing" : 1.0900000000000001,
-  "Normal Font" : "MonacoNerdFontCompleteM- 10",
+  "Vertical Spacing" : 1,
+  "Normal Font" : "SFMonoNerdFontComplete-Regular 11",
   "Use Underline Color" : false,
   "Ansi 7 Color" : {
     "Red Component" : 0.4392156862745098,
@@ -383,11 +383,11 @@
   },
   "Transparency" : 0,
   "Background Color" : {
-    "Red Component" : 0.062745098039215685,
+    "Red Component" : 0.10000000000000001,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.070588235294117646,
+    "Blue Component" : 0.10000000000000001,
     "Alpha Component" : 1,
-    "Green Component" : 0.066666666666666666
+    "Green Component" : 0.10000000000000001
   },
   "Screen" : -1,
   "Non Ascii Font" : "CourierNewPSMT 12",
@@ -401,6 +401,12 @@
   "Unicode Normalization" : 0,
   "Visual Bell" : true,
   "ASCII Ligatures" : false,
-  "Custom Directory" : "Recycle",
-  "Thin Strokes" : 3
+  "Thin Strokes" : 4,
+  "Ansi 5 Color" : {
+    "Red Component" : 0.52156862745098043,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.5490196078431373,
+    "Alpha Component" : 1,
+    "Green Component" : 0.40392156862745099
+  }
 }

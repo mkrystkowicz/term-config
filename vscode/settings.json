@@ -1,14 +1,13 @@
-
 {
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
-  "editor.fontWeight": "700",
+  "editor.fontWeight": "300",
+  "editor.fontSize": 13,
   "editor.fontFamily": "SF Mono",
-  "editor.fontSize": 11,
-  "terminal.integrated.fontWeight": "600",
-  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontSize": 12,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDelete": false,
   "[vue]": {
@@ -42,41 +41,31 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.eslintIntegration": true,
   "editor.lineHeight": 16,
   "editor.suggestLineHeight": 20,
   "editor.renderLineHighlight": "gutter",
   "gruvboxMaterial.italicComments": false,
   "editor.cursorWidth": 3,
-  "editor.letterSpacing": 0.1,
-  "workbench.fontAliasing": "antialiased",
   "diffEditor.wordWrap": "on",
   "editor.wordWrap": "on",
   "editor.suggestSelection": "first",
   "gruvboxMaterial.colorfulSyntax": true,
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "compressed",
-      "extensionName": ".css",
-      "savePath": "~/../css/"
-    }
-  ],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.activityBar.visible": false,
   "editor.minimap.enabled": false,
-  "tabnine.experimentalAutoImports": true,
   "editor.quickSuggestions": {
     "other": true,
     "comments": false,
     "strings": false
   },
   "files.associations": {
-    "*.js": "javascriptreact"
+    "*.js": "javascript",
+    "*.php": "php",
+    "*.module.php": "php"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontLigatures": false,
   "gruvboxMaterial.darkWorkbench": "high-contrast",
-  "workbench.sideBar.location": "right",
   "workbench.iconTheme": "material-icon-theme",
   "prettier.printWidth": 120,
   "vim.cursorStylePerMode.insert": "line",
@@ -91,7 +80,20 @@
     "<C-f>": false,
     "<C-p>": false
   },
-  "workbench.colorTheme": "Minimal Theme",
+  "liveServer.settings.donotVerifyTags": true,
+  "prettier.useEditorConfig": false,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "intelephense.environment.phpVersion": "7.4.29",
+  "gruvboxMaterial.darkContrast": "hard",
+  "gruvboxMaterial.darkPalette": "original",
+  "workbench.fontAliasing": "default",
+  "bracketPairColorizer.depreciation-notice": false,
   "window.zoomLevel": -1,
-  "liveServer.settings.donotVerifyTags": true
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Minimal Theme",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
