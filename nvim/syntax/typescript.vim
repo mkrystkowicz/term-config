@@ -25,7 +25,7 @@ hi link typescriptTry Exception
 
 hi link typescriptOperator Operator
 hi link typescriptUnaryOp Operator
-hi lik typescriptBinaryOp Operator
+hi link typescriptBinaryOp Operator
 hi link typescriptKeywordOp Operator
 hi link typescriptTernaryOp Operator
 hi link typescriptAssign Operator

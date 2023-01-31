@@ -1,4 +1,7 @@
 {
   "coc.preferences.formatOnSaveFiletypes": ["*"],
-  "snippets.ultisnips.usePythonx": false
+  "snippets.ultisnips.usePythonx": false,
+  "tsserver.log": "verbose",
+  "typescript.tsserver.log": "verbose",
+  "tsserver.trace.server": "verbose"
 }

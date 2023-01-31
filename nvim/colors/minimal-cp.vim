@@ -8,8 +8,8 @@ set t_Co=256
 set signcolumn=number
 let g:colors_name = "minimal"
 
-let s:bg="#191919"
-let s:bg2="#343434"
+let s:bg="#101112"
+let s:bg2="#232425"
 let s:bg3="#363738"
 let s:bg4="#494a4b"
 let s:fg="#C4C8C6"
