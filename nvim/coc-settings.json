@@ -3,5 +3,6 @@
   "snippets.ultisnips.usePythonx": false,
   "tsserver.log": "verbose",
   "typescript.tsserver.log": "verbose",
-  "tsserver.trace.server": "verbose"
+  "tsserver.trace.server": "verbose",
+  "snippets.ultisnips.pythonPrompt": false
 }
