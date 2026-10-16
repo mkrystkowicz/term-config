@@ -1,0 +1,126 @@
+tap "homebrew/services"
+tap "stripe/stripe-cli"
+# New file format for still image compression
+brew "jpeg-xl"
+# Codec library for encoding and decoding AV1 video streams
+brew "aom"
+# Companion library to apr, the Apache Portable Runtime library
+brew "apr-util"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Libraries to talk to Microsoft SQL Server and Sybase databases
+brew "freetds"
+# Library for encoding and decoding .avif files
+brew "libavif"
+# Graphics library to dynamically manipulate images
+brew "gd"
+# General-purpose scripting language
+brew "php", restart_service: :changed
+# Dependency Manager for PHP
+brew "composer"
+# Command-line tool for DigitalOcean
+brew "doctl"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Toolkit for image loading and pixel buffer manipulation
+brew "gdk-pixbuf"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Modern load testing tool, using Go and JavaScript
+brew "k6"
+# Portable Foreign Function Interface library
+brew "libffi"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Libraries for security-enabled client and server applications
+brew "nss"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Object-relational database system
+brew "postgresql@16", restart_service: :changed
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# QR Code generation
+brew "qrencode"
+# Anonymizing overlay network for TCP
+brew "tor", restart_service: :changed
+# UNIX shell (command interpreter)
+brew "zsh"
+# Cross-platform Git credential storage for multiple hosting providers
+cask "git-credential-manager"
+uv "specify-cli", source: "git+https://github.com/github/spec-kit.git"
+npm "@higgsfield/cli"
+npm "corepack"
+npm "typescript"
+
+# Apps
+cask "brave-browser"
+cask "google-chrome"
+cask "firefox"
+cask "opera"
+cask "tor-browser"
+cask "cursor"
+cask "zed"
+cask "visual-studio-code"
+cask "iterm2"
+cask "dbeaver-community"
+cask "postman"
+cask "runjs"
+cask "jetbrains-toolbox"
+cask "figma"
+cask "notion"
+cask "notion-calendar"
+cask "todoist-app"
+cask "slack"
+cask "discord"
+cask "signal"
+cask "telegram"
+cask "chatgpt"
+cask "claude"
+cask "rectangle"
+cask "tailscale-app"
+cask "spotify"
+cask "vlc"
+cask "the-unarchiver"
+cask "ledger-wallet"
+cask "electrum"
+cask "google-ads-editor"
+cask "balenaetcher"
+
+# VS Code extensions
+vscode "anthropic.claude-code"
+vscode "bradlc.vscode-tailwindcss"
+vscode "dbaeumer.vscode-eslint"
+vscode "docker.docker"
+vscode "dsznajder.es7-react-js-snippets"
+vscode "esbenp.prettier-vscode"
+vscode "formulahendry.auto-rename-tag"
+vscode "jdinhlife.gruvbox"
+vscode "jock.svg"
+vscode "k--kato.intellij-idea-keybindings"
+vscode "mgmcdermott.vscode-language-babel"
+vscode "mkrystkowicz.minimal"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode-remote.remote-containers"
+vscode "octref.vetur"
+vscode "openai.chatgpt"
+vscode "patbenatar.advanced-new-file"
+vscode "pkief.material-icon-theme"
+vscode "ritwickdey.liveserver"
+vscode "siddharthkp.codesandbox-black"
+vscode "tabnine.tabnine-vscode"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscode-icons-team.vscode-icons"
+vscode "vscodevim.vim"
