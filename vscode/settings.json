@@ -2,11 +2,8 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.formatOnSave": true,
-  "editor.fontWeight": "300",
-  "editor.fontSize": 13,
-  "editor.fontFamily": "SF Mono",
-  "terminal.integrated.fontWeight": "300",
+  "editor.fontWeight": "400",
+  "terminal.integrated.fontWeight": "400",
   "terminal.integrated.fontSize": 12,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDelete": false,
@@ -28,7 +25,7 @@
     }
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "explorer.confirmDragAndDrop": false,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -51,7 +48,6 @@
   "editor.suggestSelection": "first",
   "gruvboxMaterial.colorfulSyntax": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.activityBar.visible": false,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
     "other": true,
@@ -66,7 +62,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontLigatures": false,
   "gruvboxMaterial.darkWorkbench": "high-contrast",
-  "workbench.iconTheme": "material-icon-theme",
   "prettier.printWidth": 120,
   "vim.cursorStylePerMode.insert": "line",
   "editor.tabSize": 2,
@@ -90,10 +85,63 @@
   "gruvboxMaterial.darkPalette": "original",
   "workbench.fontAliasing": "default",
   "bracketPairColorizer.depreciation-notice": false,
-  "window.zoomLevel": -1,
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Minimal Theme",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["enter"],
+      "after": [],
+      "commands": [
+        {
+          "command": ":nohl"
+        }
+      ]
+    },
+    {
+      "before": ["u"],
+      "after": [],
+      "commands": [
+        {
+          "command": "undo",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<C-r>"],
+      "after": [],
+      "commands": [
+        {
+          "command": "redo",
+          "args": []
+        }
+      ]
+    }
+  ],
+  "workbench.iconTheme": "vscode-icons",
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "editor.fontFamily": "SF Mono",
+  "vsicons.dontShowNewVersionMessage": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "screencastMode.keyboardOptions": {
+    "showCommandGroups": true
+  },
+  "window.zoomLevel": -1,
+  "editor.fontSize": 14,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.location": "bottom",
+  "chat.disableAIFeatures": true,
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.useTerminal": true
 }
